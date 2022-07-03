@@ -41,7 +41,19 @@ img {
   font-weight: 900;
   font-size: 48px;
   text-align: center;
-  color: darkgrey;
+  color: aliceblue;
+}
+
+.select{
+  display: block;
+  width: 150px;
+  height: 35px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  font-size: 20px;
+  color: #333;
+  border-radius: 10px;
+  border: none;
 }
 
 .list{
