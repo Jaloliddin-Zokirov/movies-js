@@ -44,16 +44,27 @@ img {
   color: aliceblue;
 }
 
-.select{
-  display: block;
+.sel-box{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.select, .js-a-z, .js-z-a{
   width: 150px;
   height: 35px;
+  margin-left: 25px;
   margin-bottom: 25px;
-  margin-left: auto;
   font-size: 20px;
   color: #333;
   border-radius: 10px;
   border: none;
+}
+
+.select:hover, .js-a-z:hover, .js-z-a:hover{
+  color: #fff;
+  background-color: #333;
+  box-shadow: rgb(255, 255, 255) 0px 0px 10px 0px;
 }
 
 .list{
